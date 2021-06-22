@@ -1,0 +1,48 @@
+.flex-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.flex-container > * {
+  flex: auto;
+}
+
+.post-title {
+  text-align: center;
+}
+
+.title-bar {
+  background-color: lightblue;
+  padding: 0.5em 1em;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.sidebar {
+  max-width: 10em;
+  margin: 2em;
+  padding: 1em;
+}
+
+.sidebar > * {
+  max-width: 80%;
+}
+
+footer {
+  background-color: blue;
+  position: fixed;
+  padding: 100%;
+  color: white;
+  border: 2px solid black;
+}
+
+section {
+  max-width: 35%;
+  margin: 1em 0em;
+}
